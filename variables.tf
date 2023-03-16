@@ -3,10 +3,6 @@ variable "org_name" {
   default = "ops360systems"
 }
 
-variable "team_name" {
-  type    = string
-  default = "dio-team"
-}
 variable "token_scopes" {
   type        = list(string)
   default     = ["team:*"]
