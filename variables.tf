@@ -1,5 +1,5 @@
 variable "tfe-token" {
   type = string
   description = "User API token to use for Terraform Cloud operations"
-  value = "VVfhzomzjNB6oA.atlasv1.7gaZRFrljbp9ylYzGY8zhVRXCGPeDv2JQhSWVayiuZCNyV3geApMI2whw2GtoVj4Qyc"
+  default = "Qa3YnezRzlgfZQ.atlasv1.LfsPAiy9EsIl2boZXbqp6tXeG4YR6QHVxJ3nrO5gtygIRzl7IgShgjAAaq2q74LAvCo"
 }
