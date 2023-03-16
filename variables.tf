@@ -3,8 +3,7 @@ variable "org_name" {
   default = "ops360systems"
 }
 
-variable "token_scopes" {
-  type        = list(string)
-  default     = ["team:*"]
-  description = "List of API token scopes"
+variable "team_name" {
+  type    = string
+  default = "dio-team"
 }
