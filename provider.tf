@@ -6,4 +6,6 @@ terraform {
   }
 }
 
- 
+provider "tfe" {
+  token    = var.tfe-token
+}
