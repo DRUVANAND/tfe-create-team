@@ -7,5 +7,5 @@ terraform {
 }
 
 provider "tfe" {
-  token    = var.tfe-token
+  token    = var.tfe_token
 }
