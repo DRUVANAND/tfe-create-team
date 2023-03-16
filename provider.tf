@@ -7,5 +7,5 @@ terraform {
 }
 
   provider "tfe" {
-    team_token = "Qa3YnezRzlgfZQ.atlasv1.LfsPAiy9EsIl2boZXbqp6tXeG4YR6QHVxJ3nrO5gtygIRzl7IgShgjAAaq2q74LAvCo"
+    team_api_token = "Qa3YnezRzlgfZQ.atlasv1.LfsPAiy9EsIl2boZXbqp6tXeG4YR6QHVxJ3nrO5gtygIRzl7IgShgjAAaq2q74LAvCo"
   }
